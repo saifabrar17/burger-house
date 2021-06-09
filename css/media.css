@@ -1,0 +1,283 @@
+@media (min-width: 768px) and (max-width:1024px) {
+    .try-1 img {
+        width: 100%;
+    }
+
+    .try-3 img {
+        width: 100%;
+    }
+
+    .try-2 img {
+        width: 100%;
+    }
+}
+
+/*---------------------------------------------------------*/
+
+
+@media (min-width: 576px) and (max-width:768px) {
+    .today{
+        padding: 20px;
+    }
+    .banner-left {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .banner-left p {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .banner-right img {
+        width: 70%;
+        text-align: center;
+    }
+
+    /*try*/
+    .try-1 {
+
+        text-align: center;
+    }
+
+    .try-2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .try-3 {
+
+        text-align: center;
+    }
+
+
+    .try-position p {
+        right: 325px;
+    }
+
+    .try-position h5 {
+        right: 180px;
+    }
+
+    .try-position-2 p {
+        top: 15px;
+        left: 75px;
+    }
+
+    .try-position-2 h5 {
+        top: 45px;
+        left: 75px;
+
+    }
+
+    .try-position-3 h5 {
+        top: 45px;
+        left: 75px;
+    }
+
+    .try-position-3 p {
+        top: 15px;
+        left: 75px;
+    }
+
+    /*tasty*/
+    .tasty-heading h5 {
+        width: 35%;
+    }
+
+
+    /*form*/
+    .form-input {
+        text-align: center;
+    }
+
+    .form-input input {
+
+        margin-left: 0;
+
+    }
+
+    .form-input-2 {
+        text-align: center;
+
+    }
+
+    /*FOOTER BG*/
+    .footer-bg {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 50%;
+    }
+
+    .footer-i {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .footer-right{
+        margin-top: 20px;
+    }
+    /*-----------------------------------------*/
+}
+
+@media (min-width: 426px) and (max-width:576px) {
+
+    .banner-left {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .banner-left h2 {
+        margin-bottom: 0;
+    }
+
+    .banner-left p {
+        display: block;
+        margin: auto;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .banner-right img {
+        width: 70%;
+    }
+
+
+    /*---------------------*/
+    .today {
+        padding-bottom: 0;
+    }
+
+    .try-1 {
+
+        text-align: center;
+    }
+
+    .try-2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .try-3 {
+
+        text-align: center;
+    }
+
+    .try-position p {
+        left: 20px;
+        width: 200px;
+    }
+
+    .try-position h5 {
+        left: 55px;
+        width: 60%;
+    }
+
+    .try-position-2 p {
+        top: 15px;
+        left: 75px;
+    }
+
+    .try-position-2 h5 {
+        top: 45px;
+        left: 75px;
+        font-size: 25px;
+
+    }
+
+    .try-position-3 h5 {
+        top: 45px;
+        left: 75px;
+    }
+
+    .try-position-3 p {
+        top: 15px;
+        left: 75px;
+    }
+
+    /*TASTY*/
+    .tasty-heading h5 {
+        width: 35%;
+    }
+
+    /*FORM*/
+    .form-input {
+        text-align: center;
+    }
+
+    .form-input input {
+
+        margin-left: 0;
+
+    }
+
+    .form-input-2 {
+        text-align: center;
+
+    }
+
+    /*FOOTER*/
+    .footer-bg {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 50%;
+    }
+
+    .footer-i {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+
+    .owl-theme .owl-nav {
+        display: none;
+    }
+
+
+    /*------------------------*/
+}
+
+@media (min-width: 0px) and (max-width:426px) {
+body{
+    background-color: burlywood;
+}
+    .banner-left {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .banner-left h1{
+        font-size: 70px;
+    }
+    .banner-left h2 {
+        margin-bottom: 0;
+    }
+
+    .banner-left p {
+        display: block;
+        margin: auto;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .banner-right img {
+        width: 70%;
+    }
+
+
+.try-1 img{
+    width: 100%;
+}
+.try-2{
+    margin-top: 20px;
+}
+.try-2 img{
+    width: 100%;
+}
+.try-3 img{
+    width: 100%;
+}
+}
