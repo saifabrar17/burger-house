@@ -84,7 +84,7 @@ font-family: 'Montserrat', sans-serif;
 .try-position p {
     position: absolute;
     top: 15px;
-    right: 345px;
+    right: 295px;
     font-size: 26px;
     text-transform: uppercase;
     color: white;
@@ -93,7 +93,7 @@ font-family: 'Montserrat', sans-serif;
 .try-position h5 {
     position: absolute;
     top: 45px;
-    right: 200px;
+    right: 150px;
     font-size: 35px;
     text-transform: uppercase;
     color: white;
