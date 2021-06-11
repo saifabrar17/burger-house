@@ -39,7 +39,7 @@ font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     border: 3px dashed #42200B;
-    width: 65%;
+    display: inline-block;
 }
 
 .banner-left h1 {
@@ -73,19 +73,19 @@ font-family: 'Montserrat', sans-serif;
     text-align: right;
 }
 .try-1 img{
-    width: 75%;
+    width: 100%;
 }
 .try-3 img{
-    width: 75%;
+    width: 100%;
 }
 .try-2 img{
-    width: 75%;
+    width: 100%;
 }
 .try-position p {
     position: absolute;
     top: 15px;
-    right: 295px;
-    font-size: 26px;
+    left: 30px;
+    font-size: 30px;
     text-transform: uppercase;
     color: white;
 }
@@ -93,8 +93,8 @@ font-family: 'Montserrat', sans-serif;
 .try-position h5 {
     position: absolute;
     top: 45px;
-    right: 150px;
-    font-size: 35px;
+    left: 30px;
+    font-size: 45px;
     text-transform: uppercase;
     color: white;
 }
@@ -123,6 +123,7 @@ font-family: 'Montserrat', sans-serif;
 
 .try-3 {
     position: relative;
+
 }
 
 .try-position-3 p {
@@ -154,9 +155,10 @@ font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     width: 16%;
-    height: 30px;
-    font-size: 20px;
-    padding-top: 5px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 10px;
     display: block;
     margin: auto;
     color: #42200B;
@@ -216,7 +218,7 @@ font-family: 'Montserrat', sans-serif;
 .events-box-shadow {
     border-radius: 5px;
     box-shadow: 0px 0px 20px rgba(110, 110, 110, 0.7);
-}
+} 
 
 .events-content {
     padding: 15px;
@@ -250,33 +252,35 @@ font-family: 'Montserrat', sans-serif;
     padding-bottom: 15px;
 }
 
-.owl-theme {
-    position: relative;
+.owl-dots {
+    display: inline-block;
+    position: absolute;
+    bottom: 28px;
+    left: 23px;
 }
 
-.owl-theme .owl-dots .owl-dot span {
+.owl-dots .owl-dot span {
+    display: block;
+    background: #DDDDDD;
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+.owl-dots .active span {
+    height: 18px;
+    width: 18px;
     background: #FFC135;
-    height: 18px;
-    width: 18px;
 }
-.owl-dots .active span{
-    background: red;
-    height: 18px;
-    width: 18px;
-}
-.owl-theme .owl-dots {
-    position: absolute;
-    left: 30px;
-    bottom: 10px;
-}
+
+
+
 
 /*EVENT SLIDER PART end*/
 /*FORM START*/
 .reservation {
-    padding: 50px;
-    padding-top: 100px;
-    min-height: 100vh;
-    background-image: url(../img/form-5.png);
+    padding: 150px;
+    background-image: url(../img/form-bg-6.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -412,6 +416,7 @@ font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-left: 10px;
     transition: 0.4s all ease-in-out;
+    color: black;
 }
 .footer-i i:hover{
     color: #DF1C1C;
